@@ -12,7 +12,7 @@ To create these superpixels, many algorithms have emerged in the literature (SEE
 To be able to understand what are the advantages and the drawbacks of superpixel segmentation algorithms, it is important to study the properties of these algorithms. This report therefore also aims to propose a complete methodology for evaluating the performance of a superpixel segmentation algorithm. A comparative study will then be carried out on the two algorithms studied during this internship. It will make it possible to identify the strengths of this algorithms and the drawbacks. Although this methodology is performed on two superpixel segmentation algorithms, there are many others. This type of study is therefore part of the growing need to understand the benefits of each of these methods.
 
 
-# 1. The properties that superpixels must respect
+# The properties that superpixels must respect
 
 The goal of a superpixel segmentation method is to split an image into groupings of pixels, called superpixels. They should be fairly close in size and shape, but also stick to the object's borders, or even have consistent colors. This difference in the size of the superpixels makes it possible to distinguish this method from the methods of segmentation of shapes. In the litterature, their characteristics are well known, they are summarized below : 
 
@@ -22,7 +22,7 @@ The goal of a superpixel segmentation method is to split an image into groupings
 * **Computational efficiency** : for implementation on real issues.
 
 
-# 2. Implementation of metrics in python to evaluate these properties
+# Implementation of metrics in python to evaluate these properties
 All mathematical formulas can be found in this paper: https://hal.archives-ouvertes.fr/hal-01519635/file/Giraud_JEI_GR.pdf
 
 * **The explained variation (EV)** : Allows you to measure the color homogeneity of a superpixel.
